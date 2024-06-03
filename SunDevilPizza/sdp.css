@@ -1,0 +1,18 @@
+.button {
+  -fx-text-fill: white;
+  -fx-background-color: transparent;
+}
+
+.tooltip {
+    -fx-show-delay: 0ms;
+}
+
+.button:hover {
+   -fx-scale-x: 1.1;
+   -fx-scale-y: 1.1;
+   -fx-scale-z: 1.1;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
